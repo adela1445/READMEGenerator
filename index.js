@@ -11,9 +11,9 @@ const generateMarkdown = require('./utils/generateMarkdown.js');
 const questions = [
     {
         type: 'input',
-        message: "What is your GitHub username? (No @ needed)",
+        message: "What is your GitHub username?",
         name: 'username',
-        default: 'connietran-dev',
+        default: 'adela1445',
         validate: function (answer) {
             if (answer.length < 1) {
                 return console.log("A valid GitHub username is required.");
